@@ -79,14 +79,7 @@ const Index = () => {
                   <Icon name="Calendar" size={20} className="mr-2" />
                   Забронировать
                 </Button>
-                <Button
-                  variant="outline"
-                  size="lg"
-                  className="border-orange-600 text-orange-600 hover:bg-orange-50 px-8 py-4 text-lg"
-                >
-                  <Icon name="Calculator" size={20} className="mr-2" />
-                  Калькулятор цены
-                </Button>
+
               </div>
             </div>
             <div className="relative">
@@ -459,10 +452,7 @@ const Index = () => {
                   </div>
                 </div>
               </div>
-              <Button className="bg-orange-600 hover:bg-orange-700 text-white w-full">
-                <Icon name="Calculator" size={20} className="mr-2" />
-                Рассчитать стоимость доставки
-              </Button>
+
             </div>
           </div>
         </div>
