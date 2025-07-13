@@ -385,7 +385,7 @@ const Index = () => {
               Зона доставки
             </h2>
             <p className="text-xl text-gray-600">
-              Доставляем по Москве и области
+              Доставляем по Кирову и Кировской области
             </p>
           </div>
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -422,7 +422,7 @@ const Index = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-navy-900">
-                        Москва в пределах МКАД
+                        Киров в черте города
                       </h4>
                       <p className="text-gray-600">Бесплатная доставка</p>
                     </div>
@@ -437,9 +437,11 @@ const Index = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-navy-900">
-                        Московская область
+                        Кировская область
                       </h4>
-                      <p className="text-gray-600">До 30 км от МКАД - 1000₽</p>
+                      <p className="text-gray-600">
+                        До 50 км от Кирова - 1500₽
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
